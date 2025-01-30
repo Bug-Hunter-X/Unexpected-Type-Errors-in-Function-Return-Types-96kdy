@@ -1,0 +1,3 @@
+# Unexpected Type Errors in Function Return Types
+
+This repository demonstrates a scenario where TypeScript's type system might fail to catch a runtime type error related to function return types. The bug occurs because of unexpected changes in a function's return type due to internal logic such as conditionals. Although TypeScript's type checking is usually thorough, this specific error can be elusive.
